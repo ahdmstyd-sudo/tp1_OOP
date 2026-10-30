@@ -1,24 +1,22 @@
-# Compiled class file
-*.class
+package tp1_IntroOOP;
 
-# Log file
-*.log
+public class Main {
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+	public static void main(String[] args) {
+		
+				Student student1 = new Student();
+				student1.name = "Ahmed";
+				student1.id = 2026001;
+				student1.major = "Computer engineering";
+				
+				Student student2 = new Student();
+				student2.name = "Sara";
+				student2.id = 2026002;
+				student2.major = "Cybersecurity";
+				
+				student1.displayinfo();
+				student2.displayinfo();
+			}
+	//Deruoiche ahmed el mostafa
+	//cherifi abdel monaime			
+}
